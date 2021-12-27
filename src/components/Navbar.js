@@ -99,7 +99,7 @@ function NavBar() {
                 to="/certification"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineTrophy style={{ marginBottom: "2px" }} /> Certification
+                <AiOutlineTrophy style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
             </Nav.Item>
 
