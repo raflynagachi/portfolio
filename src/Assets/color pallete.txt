@@ -1,0 +1,7 @@
+black #1B262C
+Dark blue #021722
+dark blue #0F4C75
+dark blue hover #51a6df
+dark blue med #3282B8
+azure #37c6ff
+light blue #BBE1FA
