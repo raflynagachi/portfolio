@@ -12,7 +12,7 @@ function AboutCard() {
             from South Sumatera,<span className="purple"> Indonesia. </span>
             Informatics Engineering undergraduate passionate about <span className="purple">programming </span>
             and <span className="purple"> machine learning</span>. 
-            Proﬁcient in a range of modern technologies including <span className="purple">Python, Excel, SQL</span>. 
+            Proficient in a range of modern technologies including <span className="purple">Python, Excel, SQL</span>. 
             Also familiar with software engineering especially in <span className="purple">Web Development</span>.
             <br />
             <br />
