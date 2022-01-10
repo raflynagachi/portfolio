@@ -20,7 +20,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Field of interest's are <b className="purple">programming</b> and <b className="purple">machine learning</b>.
-              Working experience at startups and taking courses in software &#38; computer
+              Experience working at startups and taking courses in software &#38; computer
               convinced me to work professionally in the technology department.
               <br/>
               <br/>
