@@ -10,6 +10,8 @@ import spadaDikti from "../../Assets/Projects/spada-dikti-project.png";
 import wmMaker from "../../Assets/Projects/wm-maker.png";
 import imageEditor from "../../Assets/Projects/image-editor.png";
 import fruitClassification from "../../Assets/Projects/fruit-classification.png";
+import laracamp from "../../Assets/Projects/laracamp.png";
+import amiotw from "../../Assets/Projects/amiotw.png";
 
 function Projects() {
   return (
@@ -73,6 +75,17 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={laracamp}
+              isBlog={false}
+              title="Laracamp"
+              description="Bootcamp service website. Built with Laravel.
+              Have features which allows user login using google account (socialite),
+              pay checkout using payment gateaway (midtrans), mail features and user/admin dashboard"
+              link="https://github.com/raflynagachi/bootcamp-web"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={freegram}
               isBlog={false}
               title="Freegram"
@@ -93,6 +106,17 @@ function Projects() {
               cryptanalysis (frequency analysis and kasiski). Have features 
               which allows user to encrypt and decrypt text using a specific key"
               link="https://afifhibatullahh.github.io/kripto-reactjs/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amiotw}
+              isBlog={false}
+              title="Am I Alone at The End of The World?"
+              description="2D Platformer Desktop Games. Built with Godot Engine. 
+              This game is like Mario bros with 3 stages with different difficulties, players must
+              find collectable items to pass the stage while avoiding attacks by enemies"
+              link="https://github.com/raflynagachi/amiotw"
             />
           </Col>
           <Col md={4} className="project-card">
