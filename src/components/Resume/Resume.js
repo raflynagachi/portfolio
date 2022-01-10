@@ -20,8 +20,8 @@ function Resume() {
       .then((res) => {
         upadteSpojRank(res.data.message[0].spojRank);
         upadteHackerank(res.data.message[1].hackerrank);
-        upadteCgpa(res.data.message[2].cgpa);
-        upadateSem(res.data.message[3].sem);
+        upadteCgpa(3.8);
+        upadateSem(8);
       })
       .catch((err) => {
         console.log(err);
@@ -45,46 +45,26 @@ function Resume() {
               title="Web Developer Intern [Miniplus]"
               date="April 2021 - Agustus 2021"
               content={[
-                "Worked on the development of an storage management website",
-                "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
-                " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
-                "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
-                "Used JIRA as the bug tracking system to track and maintain the history of bugs/issues on an everyday basis.",
+                "Developing RESTful API using the Laravel framework",
+                "Developing a wedding invitation website",
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Laboratory Assistant [ITERA]"
+              date="Februari 2020 - November 2021"
               content={[
-                "Worked on building front-end UI design using HTML5, CSS3, JavaScript jQuery, and building API routes using Node and express.js.",
+                "Introduction to Computers and Science I and II (MS.office)",
+                "Algorithm and Data Structures",
+                "Database using MySQL"
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
+              title="Institut Teknologi Sumatera - Computer Science"
               date="2018 - Present"
               content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
-            />
-
-            <h3 className="resume-title">Publications</h3>
-            <Resumecontent
-              title=""
-              content={[
-                "Article entitled An Overlapping Sliding Window and Combined Feature based Emotion Recognition System for EEG Signals publised in Emerald Publication;10.1108/ACI-05-2021-0130",
-              ]}
-            />
-
-            <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
-              title=""
-              content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
-              ]}
             />
           </Col>
         </Row>
