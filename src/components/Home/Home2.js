@@ -24,7 +24,7 @@ function Home2() {
               convinced me to work professionally in the technology department.
               <br/>
               <br/>
-              Whenever possible, I develop web digital products using <i><b className="purple">Python/PHP </b></i>
+              Whenever possible, I develop web digital products using <i><b className="purple">PHP </b></i>
               or learn new technologies that can add value to myself and provide benefits to others.
               <br/>
               <br/>

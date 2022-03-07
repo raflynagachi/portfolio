@@ -12,18 +12,18 @@ function AboutCard() {
             from South Sumatera,<span className="purple"> Indonesia. </span>
             Informatics Engineering undergraduate passionate about <span className="purple">programming </span>
             and <span className="purple"> machine learning</span>. 
-            Proficient in a range of modern technologies including <span className="purple">Python, Excel, SQL</span>. 
-            Also familiar with software engineering especially in <span className="purple">Web Development</span>.
+            Proficient in a range of modern technologies including <span className="purple">Python, Excel, SQL, Laravel</span>. 
+            Also familiar with software engineering especially in <span className="purple">Web Development using Laravel</span>.
             <br />
             <br />
             Here is some activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              Playing Games <ImPlay />
+              Watch Movies <ImDisplay />
             </li>
             <li className="about-activity">
-              Watch Movies <ImDisplay />
+              Playing Games <ImPlay />
             </li>
             <li className="about-activity">
               Reading books <ImBook />

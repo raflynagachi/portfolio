@@ -12,7 +12,7 @@ import {
   DiCss3,
   DiHtml5,
 } from "react-icons/di";
-import { SiTensorflow } from "react-icons/si";
+// import { SiTensorflow } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -21,10 +21,10 @@ function Techstack() {
         <DiPython />
         <ReactTooltip/>
       </Col>
-      <Col data-tip="tensorflow" xs={4} md={2} className="tech-icons">
+      {/* <Col data-tip="tensorflow" xs={4} md={2} className="tech-icons">
         <SiTensorflow />
         <ReactTooltip/>
-      </Col>
+      </Col> */}
       <Col data-tip="sql" xs={4} md={2} className="tech-icons">
         <DiDatabase />
         <ReactTooltip/>
