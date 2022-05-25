@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImBook, ImDisplay, ImPlay } from "react-icons/im";
+import { ImBook, ImDisplay, ImHeadphones, ImPlay } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -10,10 +10,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I'm <span className="purple">Rafly Rigan Nagachi </span>
             from South Sumatera,<span className="purple"> Indonesia. </span>
-            Informatics Engineering undergraduate passionate about <span className="purple">programming </span>
-            and <span className="purple"> machine learning</span>. 
-            Proficient in a range of modern technologies including <span className="purple">Python, Excel, SQL, Laravel</span>. 
-            Also familiar with software engineering especially in <span className="purple">Web Development using Laravel</span>.
+            Informatics Engineering undergraduate passionate about <span className="purple">software development </span>
+            and <span className="purple"> data science</span>.
+            Familiar with <span className="purple">various technologies</span> including Go, Databases, Git, Python for Data Science.
             <br />
             <br />
             Here is some activities that I love to do!
@@ -23,10 +22,10 @@ function AboutCard() {
               Watch Movies <ImDisplay />
             </li>
             <li className="about-activity">
-              Playing Games <ImPlay />
+              Listening Podcasts <ImHeadphones />
             </li>
             <li className="about-activity">
-              Reading books <ImBook />
+              Playing Games <ImPlay />
             </li>
           </ul>
 

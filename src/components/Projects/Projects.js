@@ -9,6 +9,7 @@ import kriptosGrafos from "../../Assets/Projects/kriptosGrafos.png";
 import spadaDikti from "../../Assets/Projects/spada-dikti-project.png";
 import wmMaker from "../../Assets/Projects/wm-maker.png";
 import imageEditor from "../../Assets/Projects/image-editor.png";
+import goFund from "../../Assets/Projects/go-fund.png";
 import fruitClassification from "../../Assets/Projects/fruit-classification.png";
 import laracamp from "../../Assets/Projects/laracamp.png";
 import amiotw from "../../Assets/Projects/amiotw.png";
@@ -25,8 +26,21 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
-          <ProjectCard
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={goFund}
+              isBlog={false}
+              title="GoFund Crowdfunding Website"
+              description="A web application that is used to crowdfunding. 
+              Built with Go using gin and gorm package for backend. NuxtJS for frontend.
+              Have features which allows 
+              users to create campaign, do funding, monitoring campaign. Another feature is 
+              admin dashboard."
+              link="https://github.com/raflynagachi/crowdfunding-web"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={imageEditor}
               isBlog={false}
               title="Image Editor"
@@ -36,9 +50,9 @@ function Projects() {
               binary operator on image and save new image."
               link="https://github.com/raflynagachi/Belajar-Python/tree/Main/Tugas-kuliah/image-editor"
             />
-        </Col>
-        <Col md={4} className="project-card">
-          <ProjectCard
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={fruitClassification}
               isBlog={false}
               title="Fruit Classification using K-Nearest Neighbor"
@@ -48,8 +62,8 @@ function Projects() {
               users to predict fruit images with a limit of 5 fruits (apple, orange, mango, salak, tomato) "
               link="https://github.com/raflynagachi/fruit-classification-knn"
             />
-        </Col>
-        <Col md={4} className="project-card">
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wmMaker}
               isBlog={false}

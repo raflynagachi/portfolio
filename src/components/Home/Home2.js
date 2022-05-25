@@ -19,17 +19,17 @@ function Home2() {
               <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Field of interest's are <b className="purple">programming</b> and <b className="purple">machine learning</b>.
-              Experience working at startups and taking courses in software &#38; computer
-              convinced me to work professionally in the technology department.
-              <br/>
-              <br/>
-              Whenever possible, I develop web digital products using <i><b className="purple">PHP </b></i>
-              or learn new technologies that can add value to myself and provide benefits to others.
-              <br/>
-              <br/>
-              Day after day is followed with the goal of being able to <b className="purple">develop digital products</b> that have 
-              a <b className="purple">positive impact</b> on the surrounding environment, from families to countries and even the world
+              My areas of interest are <b className="purple">software development</b> and <b className="purple">data science</b>.
+              My experience working in startups and taking software &#38; computer courses
+              convinced me to work professionally in the software development field.
+              <br />
+              <br />
+              I usually develop digital products using <i><b className="purple">Go</b></i> or learn new technologies
+              that can improve my skills and benefit others.
+              <br />
+              <br />
+              I aim to be able to develop <b className="purple">digital products</b> that have a positive impact on
+              the surrounding environment, from families to countries and even the world.
             </p>
             <p style={{ marginBlockEnd: 0, color: "#0F4C75" }}>
               {/* “Barangsiapa yang menghilangkan kesusahan dari kesusahan-kesusahan dunia orang mukmin, 
@@ -71,7 +71,7 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-                <ReactTooltip/>
+                <ReactTooltip />
               </li>
               <li data-tip='linkedin' className="social-icons">
                 <a
@@ -82,7 +82,7 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-                <ReactTooltip/>
+                <ReactTooltip />
               </li>
               <li data-tip="instagram" className="social-icons">
                 <a
@@ -99,9 +99,9 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} style={{margin:0, padding:0}}>
-            <p style={{color: '#0F4C90'}}>
-              Website inspired by @soumyajit4419 <br/>
+          <Col md={12} style={{ margin: 0, padding: 0 }}>
+            <p style={{ color: '#0F4C90' }}>
+              Website inspired by @soumyajit4419 <br />
             </p>
           </Col>
         </Row>
