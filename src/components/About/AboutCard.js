@@ -10,9 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I'm <span className="purple">Rafly Rigan Nagachi </span>
             from South Sumatera,<span className="purple"> Indonesia. </span>
-            Informatics Engineering undergraduate passionate about <span className="purple">software development </span>
-            and <span className="purple"> data science</span>.
-            Familiar with <span className="purple">various technologies</span> including Go, Databases, Git, Python for Data Science.
+            Informatics Engineering undergraduate passionate about <span className="purple">software development </span>.
+            Familiar with <span className="purple">various technologies</span> including Go, Databases, Git, etc.
             <br />
             <br />
             Here is some activities that I love to do!

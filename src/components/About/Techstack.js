@@ -5,8 +5,10 @@ import ReactTooltip from 'react-tooltip';
 import {
   DiPython,
   DiGit,
-  DiPhp,
   DiGo,
+  DiJsBadge,
+  DiRedis,
+  DiPhp,
   DiLaravel,
   DiDatabase,
   DiCss3,
@@ -17,9 +19,13 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col data-tip="go" xs={4} md={2} className="tech-icons">
+        <DiGo />
+        <ReactTooltip />
+      </Col>
       <Col data-tip="python" xs={4} md={2} className="tech-icons">
         <DiPython />
-        <ReactTooltip/>
+        <ReactTooltip />
       </Col>
       {/* <Col data-tip="tensorflow" xs={4} md={2} className="tech-icons">
         <SiTensorflow />
@@ -27,32 +33,36 @@ function Techstack() {
       </Col> */}
       <Col data-tip="sql" xs={4} md={2} className="tech-icons">
         <DiDatabase />
-        <ReactTooltip/>
+        <ReactTooltip />
       </Col>
       <Col data-tip="git" xs={4} md={2} className="tech-icons">
         <DiGit />
-        <ReactTooltip/>
+        <ReactTooltip />
       </Col>
-      <Col data-tip="laravel" xs={4} md={2} className="tech-icons">
-        <DiLaravel />
-        <ReactTooltip/>
+      <Col data-tip="redis" xs={4} md={2} className="tech-icons">
+        <DiRedis />
+        <ReactTooltip />
       </Col>
       <Col data-tip="html" xs={4} md={2} className="tech-icons">
         <DiHtml5 />
-        <ReactTooltip/>
+        <ReactTooltip />
       </Col>
       <Col data-tip="css" xs={4} md={2} className="tech-icons">
         <DiCss3 />
-        <ReactTooltip/>
+        <ReactTooltip />
       </Col>
-      <Col data-tip="php" xs={4} md={2} className="tech-icons">
+      <Col data-tip="js" xs={4} md={2} className="tech-icons">
+        <DiJsBadge />
+        <ReactTooltip />
+      </Col>
+      {/* <Col data-tip="laravel" xs={4} md={2} className="tech-icons">
+        <DiLaravel />
+        <ReactTooltip/>
+      </Col> */}
+      {/* <Col data-tip="php" xs={4} md={2} className="tech-icons">
         <DiPhp />
         <ReactTooltip/>
-      </Col>
-      <Col data-tip="go" xs={4} md={2} className="tech-icons">
-        <DiGo />
-        <ReactTooltip/>
-      </Col>
+      </Col> */}
     </Row>
   );
 }

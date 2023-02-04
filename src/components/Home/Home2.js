@@ -19,35 +19,18 @@ function Home2() {
               <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              My areas of interest are <b className="purple">software development</b> and <b className="purple">data science</b>.
+              My areas of interest is <b className="purple">software development</b> as Backend Engineer.
               My experience working in startups and taking software &#38; computer courses
               convinced me to work professionally in the software development field.
               <br />
               <br />
-              I usually develop digital products using <i><b className="purple">Go</b></i> or learn new technologies
-              that can improve my skills and benefit others.
+              I usually develop digital products using <i><b className="purple">Go</b></i>. Learn new technologies
+              that can improve my skills.
               <br />
               <br />
               I aim to be able to develop <b className="purple">digital products</b> that have a positive impact on
-              the surrounding environment, from families to countries and even the world.
+              the surrounding environment.
             </p>
-            <p style={{ marginBlockEnd: 0, color: "#0F4C75" }}>
-              {/* “Barangsiapa yang menghilangkan kesusahan dari kesusahan-kesusahan dunia orang mukmin, 
-              maka Allah akan menghilangkan kesusahan dari kesusahan-kesusahan hari kiamat. 
-              Barangsiapa yang memberi kemudahan orang yang kesulitan (utang), 
-              maka Allah akan memberi kemudahan baginya di dunia dan akhirat. 
-              Siapa yang menutup aib seorang muslim, maka Allah akan menutup aibnya di dunia dan di akhirat. 
-              Siapa saja yang menolong saudaranya, maka Allah akan menolongnya sebagaimana ia menolong saudaranya. 
-              Barangsiapa yang menempuh perjalanan dalam rangka menuntut ilmu, 
-              maka Allah akan mudahkan baginya jalan menuju surga. 
-              Tidaklah berkumpul sekelompok orang di salah satu rumah Allah (masjid) untuk membaca Kitabullah dan 
-              saling mempelajarinya di antara mereka, melainkan akan turun kepada mereka ketenangan, 
-              rahmat meliputinya, para malaikat mengelilinginya, dan Allah menyanjung namanya kepada 
-              Malaikat yang ada di sisi-Nya. Barangsiapa yang lambat amalnya, maka tidak akan 
-              bisa dikejar oleh nasabnya (garis keturunannya yang mulia).”{" "} */}
-              ... Siapa saja yang menolong saudaranya, maka Allah akan menolongnya sebagaimana ia menolong saudaranya ...
-            </p>
-            <footer className="blockquote-footer">HR. Muslim, no. 2699 Riwayat Abu Hurairah RA</footer>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

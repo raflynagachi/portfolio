@@ -16,12 +16,12 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-  
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -35,7 +35,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
-          <Route path="/resume" component={Resume} />
+          {/* <Route path="/resume" component={Resume} /> */}
           <Route path="/certification" component={Certification} />
         </Switch>
         <Footer />
