@@ -13,6 +13,7 @@ import goFund from "../../Assets/Projects/go-fund.png";
 import fruitClassification from "../../Assets/Projects/fruit-classification.png";
 import laracamp from "../../Assets/Projects/laracamp.png";
 import amiotw from "../../Assets/Projects/amiotw.png";
+import kopiSantai from "../../Assets/Projects/kopi-santai.png";
 
 function Projects() {
   return (
@@ -26,6 +27,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kopiSantai}
+              isBlog={false}
+              title="Kopi Santai Backend"
+              description="A RESTful API food ordering system built with Golang and PostgreSQL. 
+              Gin and gorm package in development. Have features which allows 
+              auth with JWT, coupon, delivery, quiz game, order, payment, promotion, review and user management"
+              link="https://github.com/raflynagachi/kopi-santai-backend"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={goFund}
