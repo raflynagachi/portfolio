@@ -26,7 +26,7 @@ function Certifications() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <CertificationCard
-              imgPath={dataScienceTrack}
+              imgPath={GoPZN}
               title="Pemrograman Go-Lang: Pemula sampai Mahir"
               publisher="Udemy - PZN"
               // link="https://www.udemy.com/certificate/UC-6b2e5ba9-c960-4274-989b-15a7cca06cb9/"

@@ -14,6 +14,7 @@ import fruitClassification from "../../Assets/Projects/fruit-classification.png"
 import laracamp from "../../Assets/Projects/laracamp.png";
 import amiotw from "../../Assets/Projects/amiotw.png";
 import kopiSantai from "../../Assets/Projects/kopi-santai.png";
+import imageStega from "../../Assets/Projects/imageStega.png";
 
 function Projects() {
   return (
@@ -32,9 +33,7 @@ function Projects() {
               imgPath={kopiSantai}
               isBlog={false}
               title="Kopi Santai Backend"
-              description="A RESTful API food ordering system built with Golang and PostgreSQL. 
-              Gin and gorm package in development. Have features which allows 
-              auth with JWT, coupon, delivery, quiz game, order, payment, promotion, review and user management"
+              description="This project is a Golang and PostgreSQL-based RESTful API food ordering system. It utilizes the Gin and gorm packages and offers various features such as JWT authentication, coupon integration, delivery management, a quiz game, order and payment processing, promotion management, customer reviews, and user administration."
               link="https://github.com/raflynagachi/kopi-santai-backend"
             />
           </Col>
@@ -49,6 +48,15 @@ function Projects() {
               users to create campaign, do funding, monitoring campaign. Another feature is 
               admin dashboard."
               link="https://github.com/raflynagachi/crowdfunding-web"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={imageStega}
+              isBlog={false}
+              title="Image Steganography using DCT and Deflate"
+              description="This code project implements DCT steganography with deflate compression using Python for hiding messages in digital images. It ensures high fidelity, robust recovery, and improved performance with compressed messages, offering confidentiality for sensitive information."
+              link="https://github.com/raflynagachi/TA-code"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -71,7 +79,7 @@ function Projects() {
               description="Create a desktop application to predict class of fruit 
               based on color (R, G, B) and shape (circularity, eccentricity) feature extraction.
               Built with matlab. Have features which allows 
-              users to predict fruit images with a limit of 5 fruits (apple, orange, mango, salak, tomato) "
+              users to predict fruit images with a limit of 5 fruits (apple, orange, mango, salak, tomato)"
               link="https://github.com/raflynagachi/fruit-classification-knn"
             />
           </Col>
