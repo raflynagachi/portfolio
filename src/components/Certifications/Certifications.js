@@ -10,6 +10,7 @@ import MLpemula from "../../Assets/Certifications/Sertifikat Machine Learning Pe
 import pythonTrack from "../../Assets/Certifications/Sertifikat Python Programmer Track - Datacamp.png";
 import MLfoundation from "../../Assets/Certifications/Machine Learning Foundations A Case Study Approach.png";
 import OSGoogleCert from "../../Assets/Certifications/Operating Systems and You Becoming a Power User.png";
+import GoPZN from "../../Assets/Certifications/sertifikat - pemrograman golang - PZN.png";
 
 function Certifications() {
   return (
@@ -23,6 +24,14 @@ function Certifications() {
           Here are a few certificaions I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <CertificationCard
+              imgPath={dataScienceTrack}
+              title="Pemrograman Go-Lang: Pemula sampai Mahir"
+              publisher="Udemy - PZN"
+              // link="https://www.udemy.com/certificate/UC-6b2e5ba9-c960-4274-989b-15a7cca06cb9/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <CertificationCard
               imgPath={dataScienceTrack}
